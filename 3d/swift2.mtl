@@ -1,0 +1,193 @@
+# Exported from 3D Builder
+
+newmtl glass
+Kd 0.019608 0.082353 0.129412
+
+newmtl vehiclegeneric010
+Kd 0.105882 0.105882 0.105882
+
+newmtl vehiclegeneric01
+Kd 0.050980 0.050980 0.050980
+
+newmtl chrome
+Kd 0.588235 0.588235 0.588235
+
+newmtl a_16
+Kd 0.086275 0.086275 0.086275
+
+newmtl glass5
+Kd 0.019608 0.082353 0.129412
+
+newmtl body_color0
+Kd 0.780392 0.219608 0.145098
+
+newmtl glass3
+Kd 0.019608 0.082353 0.129412
+
+newmtl a_024
+Kd 0.803922 0.725490 0.662745
+
+newmtl glass4
+Kd 0.019608 0.082353 0.129412
+
+newmtl body_color
+Kd 0.780392 0.219608 0.145098
+
+newmtl a_1
+Kd 0.086275 0.086275 0.086275
+
+newmtl Material__245
+Kd 1.000000 1.000000 1.000000
+
+newmtl glass0
+Kd 0.019608 0.082353 0.129412
+
+newmtl vehiclelights01
+Kd 1.000000 1.000000 1.000000
+
+newmtl chrome0
+Kd 0.588235 0.588235 0.588235
+
+newmtl body_color2
+Kd 0.780392 0.219608 0.145098
+
+newmtl a_10
+Kd 0.086275 0.086275 0.086275
+
+newmtl glass1
+Kd 0.019608 0.082353 0.129412
+
+newmtl number
+Kd 1.000000 1.000000 1.000000
+
+newmtl body_color1
+Kd 0.780392 0.219608 0.145098
+
+newmtl Material__244
+Kd 1.000000 1.000000 1.000000
+
+newmtl number0
+Kd 1.000000 1.000000 1.000000
+
+newmtl glass2
+Kd 0.019608 0.082353 0.129412
+
+newmtl body_color4
+Kd 0.780392 0.219608 0.145098
+
+newmtl a_11
+Kd 0.086275 0.086275 0.086275
+
+newmtl a_02
+Kd 0.803922 0.725490 0.662745
+
+newmtl a_022
+Kd 0.803922 0.725490 0.662745
+
+newmtl a_020
+Kd 0.803922 0.725490 0.662745
+
+newmtl a_021
+Kd 0.803922 0.725490 0.662745
+
+newmtl a_01
+Kd 0.729412 0.564706 0.474510
+
+newmtl body_color3
+Kd 0.780392 0.219608 0.145098
+
+newmtl a_12
+Kd 0.086275 0.086275 0.086275
+
+newmtl a_14
+Kd 0.086275 0.086275 0.086275
+
+newmtl a_010
+Kd 0.729412 0.564706 0.474510
+
+newmtl a_13
+Kd 0.086275 0.086275 0.086275
+
+newmtl a_011
+Kd 0.729412 0.564706 0.474510
+
+newmtl body_color5
+Kd 0.780392 0.219608 0.145098
+
+newmtl a_012
+Kd 0.729412 0.564706 0.474510
+
+newmtl body_color6
+Kd 0.780392 0.219608 0.145098
+
+newmtl a_023
+Kd 0.803922 0.725490 0.662745
+
+newmtl a_013
+Kd 0.729412 0.564706 0.474510
+
+newmtl Material__233
+Kd 0.588235 0.588235 0.588235
+
+newmtl interior
+Kd 1.000000 1.000000 1.000000
+
+newmtl zo
+Kd 1.000000 1.000000 1.000000
+
+newmtl vehiclelights0
+Kd 1.000000 1.000000 1.000000
+
+newmtl vehiclegeneric011
+Kd 0.050980 0.050980 0.050980
+
+newmtl body_color7
+Kd 0.780392 0.219608 0.145098
+
+newmtl rim_chrome
+Kd 0.588235 0.588235 0.588235
+
+newmtl Material__181
+Kd 1.000000 1.000000 1.000000
+
+newmtl wheel01
+Kd 1.000000 1.000000 1.000000
+
+newmtl HL_glass
+Kd 0.176471 0.176471 0.176471
+
+newmtl bulb
+Kd 0.588235 0.588235 0.588235
+
+newmtl chrome1
+Kd 0.474510 0.474510 0.474510
+
+newmtl Material__195
+Kd 0.588235 0.588235 0.588235
+
+newmtl Material__197
+Kd 0.588235 0.588235 0.588235
+
+newmtl Material__210
+Kd 0.588235 0.588235 0.588235
+
+newmtl _5___Default
+Kd 1.000000 1.000000 1.000000
+
+newmtl chrome2
+Kd 0.388235 0.007843 0.007843
+
+newmtl body_color7
+Kd 0.780392 0.219608 0.145098
+
+newmtl interior0
+Kd 1.000000 1.000000 1.000000
+
+newmtl interior0
+Kd 1.000000 1.000000 1.000000
+
+newmtl interior0
+Kd 1.000000 1.000000 1.000000
+
+newmtl interior0
+Kd 1.000000 1.000000 1.000000
