@@ -22,9 +22,13 @@ border-color: #1c2e56;
 
 .background-image{
 background-image: url("../img/swift.jpg");
-height:420px;
+height:520px;
 }
 
+.border-white{
+border-bottom:solid 3px;
+border-color:white;  
+}
 .pos-jumbo{
 margin-top:80px;
 opacity: 0.8;
