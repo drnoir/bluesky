@@ -16,46 +16,113 @@
   </head>
 
   <body>
-
-    <header>
-      <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Suzuki Showroom</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">The New Suzuki</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Visit Us</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
     <!-- Begin page content -->
-    <div class="container">
+   <div class = "container">
+      <div class="row">
+        <div class = "col-12">
+          <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+              <a class="navbar-brand" href="#"><img src="logo.jpg" class="img-thumbnail" alt="..."></a>
+                
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our Showroom</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">The New Susuki Swift</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Full Spec</a>
+                      </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#">Find Us</a>
+                  </li>    
+                  <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  </ul>
+              </div>  
+            </div>
+            </nav>
+      </div> 
     <div class="row">
-      <div class = "title">The New Suzuki Swift coming soon...</div>
-      <div class = "canvas"></div>
+      <div class = "col-12 background-image">
+          <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">Suzuki Swift</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              </div>
+            </div>
+
+      </div>
+       
     </div>
+
     <div class="row">
-        <div class="col-sm">One of three columns</div>
-        <div class="col-sm">One of three columns</div>
+      <div class="col-sm">
+      <h3>Comfort and Convenience</h3>
+      <ul class = "list-unstyled">
+      <li>Air Conditioner</li>
+      <li>Heater</li>
+      <li>Steering Adjustment</li>
+      <li>Steering Mounted Audio</li>
+      <li>Power Outlets 12V</li>
+      <li>Electrically Adjustable Rear View Mirror</li>
+      <li>Upholstery</li>
+      <li>Front Cup Holders</li>
+      <li>Keyless Entry</li>
+</ul>
+        </div>
+        <div class="col-sm">
+        <h3>Entertainment</h3>  
+        <ul class = "list-unstyled">
+        <li>Music System</li>
+        <li>CD/DVD Player</li>
+        <li>Speakers</li>
+        <li>Radio</li>
+        <li>USB Support</li>
+        <li>Bluetooth Support</li>
+      </ul>
+        
+        </div>
         <div class="col-sm">One of three columns</div>
     </div>
-    <!--container for three.js header background -->
+
+    <div class = "row">
+        <form>
+          <h2>Register Your Interest in the New Suzuki Swift</h2>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Name</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Phone Number</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your Phone Number">
+              </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
     </div>
+
+</div> 
+   </body> 
 
     <footer class="footer">
       <div class="container">
@@ -72,7 +139,7 @@
     <script src="js/OBJLoader.js"></script>
     <script src="js/MTLLoader.js"></script>
     <script src="js/OrbitControls.js"></script>
-    <script src="js/car.js"></script>
+    <!-- <script src="js/car.js"></script> -->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
