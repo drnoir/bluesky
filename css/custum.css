@@ -10,13 +10,24 @@ font-size: 3em;
 }
 
 .bg-dark {
-    background-color:#3e567c!important;
-    
+    background-color:#3e567c!important; 
 } 
+
+.bg-white{
+background-color:white; 
+opacity: 0.8;
+border: solid 2px;
+border-color: #1c2e56;
+}
 
 .background-image{
 background-image: url("../img/swift.jpg");
-height:720px;
+height:420px;
+}
+
+.pos-jumbo{
+margin-top:80px;
+opacity: 0.8;
 }
 
 /* .fixed-top {
