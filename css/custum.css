@@ -1,5 +1,5 @@
 /* body { margin: 0; } */
-canvas { width: 100%; height: 800px; }
+CarCanvas { width: 100%; height:100%; }
 
 .title{
 position: absolute;
@@ -30,7 +30,7 @@ border-bottom:solid 3px;
 border-color:white;  
 }
 .pos-jumbo{
-margin-top:80px;
+margin-top:20px;
 opacity: 0.8;
 }
 
