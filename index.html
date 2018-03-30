@@ -60,8 +60,9 @@
           <div class = "col-7">
           <div class="jumbotron pos-jumbo">
               <div class="container">
-                <h1 class="display-4">Suzuki Swift</h1>
+                  <h1 class="display-3">Suzuki Swift</h1>
                 <p class="lead">The Swift has always had style by the bucket load, and the all-new model is no exception. With expertly designed muscular curves and interior and exterior personalisation options to enhance every journey, all eyes will be on you.</p>
+                <a href="#reg_interest"><button type="button" class="btn btn-secondary">Register your interest</button></a>
               </div>
             </div>
           </div> 
@@ -71,6 +72,8 @@
     </div>
 
     <div class="row bg-dark">
+        <div class = "col-12">
+           <h1 class="display-4 white">Features</h1></div> 
       <div class="col-sm bg-white">
       <h3>Comfort and Convenience</h3>
       <ul class = "list-unstyled">
@@ -98,22 +101,34 @@
         
         </div>
         <div class="col-sm bg-white">
-          <h3></h3>  
+          <h3>Engine</h3>  
             <ul class = "list-unstyled">
-            <li>Music System</li>
-            <li>CD/DVD Player</li>
-            <li>Speakers</li>
-            <li>Radio</li>
-            <li>USB Support</li>
-            <li>Bluetooth Support</li>
-          </ul>  
+              
+              <li>Cylinder ConfigurationIn-line</li>
+              <li>Cylinders4</li>
+              <li>Valves Per Cylinder4</li>
+              <li>Displacement1197 cc</li>
+              <li>Power83PS@6000rpm</li>
+              <li>Torque113Nm@4200RPM</li>
+              <li>Compression Ratio11.0:1</li>
+              <li>Engine LocationFront, Transverse</li>
+              <li>Fuel SystemInjection</li>
+              <li>Emission NormBS IV g/km</li>
+              <li>Fuel TypePetrol</li>
+              <li>City Mileage12.6 km/litre</li>
+              <li>Highway Mileage17 km/litre</li>
+        </ul>  
         </div>
     </div>
-
+  
     <div class = "row bg-dark">
-      <div class = "col-6 bg-white">  
+        <div class = "col-12 bg-dark">  
+            <h1 class="display-4">The Suzuki Swift in 3D</h1>
+            <canvas id="CarCanvas"></canvas>
+          </div>  
+      <div class = "col-12">  
       <form>
-          <h2>Register Your Interest in the New Suzuki Swift</h2>
+          <a id="reg_interest"><h2 class="display-4">Register Your Interest in the New Suzuki Swift</h2></a>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -134,9 +149,6 @@
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
          </div> 
-         <div class = "col-6">  
-           <canvas id="CarCanvas"></canvas>
-         </div>  
     </div>
 
 </div> 

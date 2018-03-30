@@ -8,7 +8,9 @@ THREE.ImageUtils.crossOrigin = '';
 var sceneCar = document.getElementById("CarCanvas");
 
 var renderer = new THREE.WebGLRenderer( { canvas: CarCanvas });
-// renderer.setSize( window.innerWidth, window.innerHeight );
+
+// var height = renderer.domElement.clientHeight;
+renderer.setSize(  1100, 500 );
 
 var controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
@@ -46,10 +48,9 @@ mtlLoader.load('swift2.mtl', function (materials) {
     });  
 });
 
-// Look up the size the canvas is being displayed
+//Look up the size the canvas is being displayed
 var width = renderer.domElement.clientWidth;
 var height = renderer.domElement.clientHeight;
- 
 // check if the canvas is the same size
 if (renderer.domElement.width !== width ||
     renderer.domElement.height !== height) {

@@ -9,6 +9,13 @@ color:white;
 font-size: 3em;
 }
 
+.display-4 {
+font-size: 3.5rem;
+font-weight: 300;
+line-height: 1.2;  
+color:white;
+}
+
 .bg-dark {
     background-color:#3e567c!important; 
 } 
@@ -16,8 +23,6 @@ font-size: 3em;
 .bg-white{
 background-color:white; 
 opacity: 0.8;
-border: solid 2px;
-border-color: #1c2e56;
 }
 
 .background-image{
