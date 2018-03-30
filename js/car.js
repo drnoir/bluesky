@@ -6,14 +6,9 @@ camera.position.z = 300;
 THREE.ImageUtils.crossOrigin = '';
 
 var sceneCar = document.getElementById("CarCanvas");
-sceneCar.width = 500;
-sceneCar.height = 500;
 
 var renderer = new THREE.WebGLRenderer( { canvas: CarCanvas });
-CarCanvas.width  = CarCanvas.clientWidth;
-CarCanvas.height = CarCanvas.clientHeight;
-renderer.setViewport(0, 0, CarCanvas.clientWidth, CarCanvas.clientHeight);
-renderer.setSize( window.innerWidth, window.innerHeight );
+// renderer.setSize( window.innerWidth, window.innerHeight );
 
 var controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
@@ -51,26 +46,18 @@ mtlLoader.load('swift2.mtl', function (materials) {
     });  
 });
 
-function onResize(element, callback) {
-    var height = element.clientHeight;
-    var width  = element.clientWidth;
-    
-    return setInterval(function() {
-        if (element.clientHeight != height || element.clientWidth != width) {
-          height = element.clientHeight;
-          width  = element.clientWidth;
-          callback();
-        }
-    }, 500);
-}   
-
-onResize(CarCanvas, function () {
-    CarCanvas.width  = CarCanvas.clientWidth;
-    CarCanvas.height = CarCanvas.clientHeight;
-    renderer.setViewport(0, 0, CarCanvas.clientWidth, CarCanvas.clientHeight);
-    camera.aspect = CarCanvascanvas.clientWidth / CarCanvas.clientHeight;
-    camera.updateProjectionMatrix();
-});
+// Look up the size the canvas is being displayed
+var width = renderer.domElement.clientWidth;
+var height = renderer.domElement.clientHeight;
+ 
+// check if the canvas is the same size
+if (renderer.domElement.width !== width ||
+    renderer.domElement.height !== height) {
+ 
+    // it's not the same size so make it the same size
+    var updateCSSStyle = false;
+    renderer.setSize( width, height, updateCSSStyle );
+}
 
 var animate = function () {
 	requestAnimationFrame( animate );
