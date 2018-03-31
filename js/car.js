@@ -10,7 +10,9 @@ var sceneCar = document.getElementById("CarCanvas");
 var renderer = new THREE.WebGLRenderer( { canvas: CarCanvas });
 
 // var height = renderer.domElement.clientHeight;
-renderer.setSize(  1100, 500 );
+renderer.setSize(  1000, 500 );
+
+// var winResize	= new THREEx.WindowResize(renderer, camera)
 
 var controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
@@ -29,6 +31,7 @@ backLight.position.set(100, 0, -100).normalize();
 scene.add(keyLight);
 scene.add(fillLight);
 scene.add(backLight);
+
 
 var mtlLoader = new THREE.MTLLoader();
 mtlLoader.setTexturePath('http://noirvortex.co.uk/bluesky/model/');
